@@ -1,0 +1,48 @@
+
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .colorBox{
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap:1.5rem;
+        height: 260px;
+        width: 330px;
+        margin-bottom: 2rem;
+        /* border: 1px solid; */
+    }
+    .box{
+        height: 110px;
+        width: 110px;
+        border: 6px solid black;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .red{
+       background-color: red;
+    }
+    .green{
+        background-color: green;
+    }
+    .yellow{
+        background-color: yellow;
+    }
+    .purple{
+       background-color: purple;
+    }
+    .flash{
+       background-color: white;
+    }
+    .userFlash{
+       background-color: black;
+    }
+    .score{
+        font-size: 1rem;
+       font-weight: 900;
+    }

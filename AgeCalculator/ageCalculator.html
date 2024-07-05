@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    
+    <link rel="stylesheet" href="ageCal.css">
+</head>
+<body>
+    <h1>Age Calculator</h1>
+    <div class="container">
+        
+        <form action="#" id="myForm">
+            <div class="row">
+                <div class="col">
+                    <label for="dob">Date of Birth :  </label><b class="reqDOB">*</b>
+                </div>
+                <div class="col">
+                    <input type="text" name="dob" id="myDob" placeholder="YYYY/MM/DD">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="present-date">Age at the Date of : </label> <b class="reqPresentDate">*</b>
+                </div>
+                <div class="col">
+                    <input type="text" name="present-date" id="todaysDate" placeholder="YYYY/MM/DD">
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Calculate">
+            </div>
+        </form>
+    </div>
+    <div class="visible" >
+        <h3 class="ageYears"></h3>
+        <h3 class="ageMonths"></h3>
+        <h3 class="ageWeeks"></h3>
+        <h3 class="ageDays"></h3>
+        <h3 class="ageHours"></h3>
+        <h3 class="ageMinutes"></h3>
+        <h3 class="ageSeconds"></h3>
+    </div>
+    <script src="ageCal.js"></script>
+</body>
+</html>

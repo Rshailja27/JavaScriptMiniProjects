@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schulte Table Java Script</title>
+    <link rel = "stylesheet" href="schultTable.css">
+</head>
+<body>
+    <div class="mainBody">
+        <div>
+            <h1>Schulte Table</h1>
+            <h2 id="findNum"  style="visibility: hidden;">1</h2>
+            <h5  style="visibility: hidden;">Symbol to find</h5>
+        </div>
+       <div>
+        <img src="file.png" alt="button" id="start-button" class="start-button" onclick="ClickHandler(this)" style="margin-top: 10px;">
+        <p class="start-game">Start Game</p>
+       </div>
+        <div class="container" style="visibility: hidden;">  
+        <div class="row r1">
+            <div class="column c1" onclick="schulteTable(this)">1</div>
+            <div class="column c2" onclick="schulteTable(this)">2</div>
+            <div class="column c3" onclick="schulteTable(this)">3</div>
+            <div class="column c4" onclick="schulteTable(this)">4</div>
+            <div class="column c5" onclick="schulteTable(this)">5</div>
+        </div>
+        <div class="row r2">
+            <div class="column c6" onclick="schulteTable(this)">6</div>
+            <div class="column c7" onclick="schulteTable(this)">7</div>
+            <div class="column c8" onclick="schulteTable(this)">8</div>
+            <div class="column c9" onclick="schulteTable(this)">9</div>
+            <div class="column c10" onclick="schulteTable(this)">10</div>
+        </div>
+        <div class="row r3">
+            <div class="column c11"onclick="schulteTable(this)">11</div>
+            <div class="column c12"onclick="schulteTable(this)">12</div>
+            <div class="column c13"onclick="schulteTable(this)">13</div>
+            <div class="column c14"onclick="schulteTable(this)">14</div>
+            <div class="column c15"onclick="schulteTable(this)">15</div>
+        </div>
+        <div class="row r4">
+            <div class="column c16" onclick="schulteTable(this)">16</div>
+            <div class="column c17" onclick="schulteTable(this)">17</div>
+            <div class="column c18" onclick="schulteTable(this)">18</div>
+            <div class="column c19" onclick="schulteTable(this)">19</div>
+            <div class="column c20" onclick="schulteTable(this)">20</div>
+        </div>
+        <div class="row r5">
+            <div class="column c21" onclick="schulteTable(this)">21</div>
+            <div class="column c22" onclick="schulteTable(this)">22</div>
+            <div class="column c23" onclick="schulteTable(this)">23</div>
+            <div class="column c24" onclick="schulteTable(this)">24</div>
+            <div class="column c25" onclick="schulteTable(this)">25</div>
+        </div>
+     </div>
+     <!-- <button id="start-button" onclick="ClickHandler(this)" style="margin-top: 10px;">Start Game</button> -->
+     <p id="timer"></p>
+    </div> 
+     
+    <script src="mySchulteTableCode.js"></script>
+</body>
+</html>

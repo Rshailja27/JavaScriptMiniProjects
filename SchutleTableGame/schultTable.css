@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(243, 71, 40);
+}
+.mainBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 450px;
+    width: 450px;
+    background-color: rgb(201, 230, 245);
+    border: 2px solid #121212;
+    border-radius: 6px;
+    box-shadow: inset;
+}
+img{
+   height: 10rem;
+   width: 10rem; 
+   cursor: pointer;
+}
+.container{
+    margin-top: -14rem;
+    border-top: 2px solid  #ccc;
+    border-bottom: 2px solid  #ccc;
+    border-left: 2px solid  #ccc;
+    border-radius: 6px;
+    background-color: #212;
+    color: rgb(250, 248, 248);
+    cursor: pointer;
+}
+.row{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    border: 1px solid #ccc;
+}
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-right: 2px solid  #ccc;
+    height: 40px;
+    width: 40px;
+    font-weight: 500;
+}
+#timer{
+    margin-top: 1rem;
+    font-weight: bold;
+    height: 20px;
+    width: 80px;
+}
+#findNum{
+    font-weight: 900;
+}
+.start-game{
+    font-weight: bold;
+}

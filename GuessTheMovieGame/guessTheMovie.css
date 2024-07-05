@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+input[type="text"] {
+    padding: 7px 1.3rem;
+    border-radius: 3px;
+    border: 2px solid rgb(173, 173, 173);
+}
+button{
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 3px;
+    background-color: rgb(82, 3, 3);
+    margin-left: 10px;
+    color: beige;
+}
+h2{
+    color: rgb(250, 9, 57);
+}
